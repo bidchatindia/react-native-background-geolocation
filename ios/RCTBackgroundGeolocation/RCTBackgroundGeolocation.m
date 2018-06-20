@@ -105,11 +105,11 @@ RCT_EXPORT_METHOD(showAppSettings)
     [facade showAppSettings];
 }
 
-RCT_EXPORT_METHOD(showLocationSettings)
-{
-    RCTLogInfo(@"RCTBackgroundGeolocation #showLocationSettings");
-    [facade showLocationSettings];
-}
+//RCT_EXPORT_METHOD(showLocationSettings)
+//{
+//    RCTLogInfo(@"RCTBackgroundGeolocation #showLocationSettings");
+//    [facade showLocationSettings];
+//}
 
 RCT_EXPORT_METHOD(getLocations:(RCTResponseSenderBlock)success failure:(RCTResponseSenderBlock)failure)
 {

@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, BGOperationMode) {
 - (BOOL) isLocationEnabled;
 - (BOOL) isStarted;
 - (void) showAppSettings;
-- (void) showLocationSettings;
+//- (void) showLocationSettings;
 - (void) switchMode:(BGOperationMode)mode;
 - (Location*)getStationaryLocation;
 - (NSArray<Location*>*) getLocations;

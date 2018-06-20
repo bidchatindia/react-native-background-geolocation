@@ -249,10 +249,10 @@ FMDBLogger *sqliteLogger;
     }
 }
 
-- (void) showLocationSettings
-{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=LOCATION_SERVICES"]];
-}
+//- (void) showLocationSettings
+//{
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=LOCATION_SERVICES"]];
+//}
 
 - (Location*) getStationaryLocation
 {

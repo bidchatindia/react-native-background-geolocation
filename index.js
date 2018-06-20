@@ -86,9 +86,9 @@ var BackgroundGeolocation = {
     RNBackgroundGeolocation.checkStatus(successFn, errorFn);
   },
 
-  showAppSettings: function() {
-    RNBackgroundGeolocation.showAppSettings();
-  },
+  // showAppSettings: function() {
+  //   RNBackgroundGeolocation.showAppSettings();
+  // },
 
   showLocationSettings: function() {
     RNBackgroundGeolocation.showLocationSettings();
